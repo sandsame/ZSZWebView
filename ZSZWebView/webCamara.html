@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<button onclick="iOSCamera()" style="width: 80px;height: 35px;">系统相机</button>
+        
+        <button onclick="iOSPhotosAlbum()" style="width: 80px;height: 35px;">系统相册</button>
+        
+        <div id='zsz'></div>
+	</body>
+    <script type="application/javascript">
+        
+        function rtnCamera(basedata) {
+            var zsz=document.getElementById('zsz');
+            zsz.innerHTML="<image style='width:200px;height:200px;' src='data:image/png;base64,"+basedata+"'>";
+        };
+    
+    </script>
+    
+</html>

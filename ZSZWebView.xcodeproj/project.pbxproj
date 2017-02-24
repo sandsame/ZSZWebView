@@ -15,6 +15,8 @@
 		172DCC0E1E5E6FE90069C800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 172DCC0C1E5E6FE90069C800 /* LaunchScreen.storyboard */; };
 		172DCC191E5E6FE90069C800 /* ZSZWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 172DCC181E5E6FE90069C800 /* ZSZWebViewTests.m */; };
 		172DCC241E5E6FEA0069C800 /* ZSZWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 172DCC231E5E6FEA0069C800 /* ZSZWebViewUITests.m */; };
+		172DCC331E5E71320069C800 /* ZSZWebVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 172DCC321E5E71320069C800 /* ZSZWebVIew.m */; };
+		172DCC351E5E91AA0069C800 /* webCamara.html in Resources */ = {isa = PBXBuildFile; fileRef = 172DCC341E5E91AA0069C800 /* webCamara.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		172DCC1F1E5E6FE90069C800 /* ZSZWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSZWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		172DCC231E5E6FEA0069C800 /* ZSZWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSZWebViewUITests.m; sourceTree = "<group>"; };
 		172DCC251E5E6FEA0069C800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		172DCC311E5E71320069C800 /* ZSZWebVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSZWebVIew.h; sourceTree = "<group>"; };
+		172DCC321E5E71320069C800 /* ZSZWebVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSZWebVIew.m; sourceTree = "<group>"; };
+		172DCC341E5E91AA0069C800 /* webCamara.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webCamara.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +110,9 @@
 				172DCC021E5E6FE70069C800 /* AppDelegate.m */,
 				172DCC041E5E6FE70069C800 /* ViewController.h */,
 				172DCC051E5E6FE70069C800 /* ViewController.m */,
+				172DCC311E5E71320069C800 /* ZSZWebVIew.h */,
+				172DCC321E5E71320069C800 /* ZSZWebVIew.m */,
+				172DCC341E5E91AA0069C800 /* webCamara.html */,
 				172DCC071E5E6FE70069C800 /* Main.storyboard */,
 				172DCC0A1E5E6FE90069C800 /* Assets.xcassets */,
 				172DCC0C1E5E6FE90069C800 /* LaunchScreen.storyboard */,
@@ -249,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				172DCC351E5E91AA0069C800 /* webCamara.html in Resources */,
 				172DCC0E1E5E6FE90069C800 /* LaunchScreen.storyboard in Resources */,
 				172DCC0B1E5E6FE90069C800 /* Assets.xcassets in Resources */,
 				172DCC091E5E6FE70069C800 /* Main.storyboard in Resources */,
@@ -279,6 +288,7 @@
 				172DCC061E5E6FE70069C800 /* ViewController.m in Sources */,
 				172DCC031E5E6FE70069C800 /* AppDelegate.m in Sources */,
 				172DCC001E5E6FE60069C800 /* main.m in Sources */,
+				172DCC331E5E71320069C800 /* ZSZWebVIew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QSXU259F8V;
 				INFOPLIST_FILE = ZSZWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gdtech.ZSZWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QSXU259F8V;
 				INFOPLIST_FILE = ZSZWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gdtech.ZSZWebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
